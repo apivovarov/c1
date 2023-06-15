@@ -4,7 +4,9 @@
 
 To build and run
 ```
-# Create build folder and generate Makefile. use -GNinja optionally
+# Run the following command in the project root
+
+# Generate Makefile. use -GNinja optionally
 cmake -B build
 
 # Build
@@ -16,4 +18,4 @@ cmake --build build
 
 
 ## Hunter package manager
-The project uses Hunter package manager. Boost library will be downloaded and built automatically.
+The project uses [Hunter package manager](https://github.com/cpp-pm/hunter). Boost library 1.80.0 will be downloaded and built automatically.
