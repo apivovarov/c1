@@ -5,7 +5,7 @@ include("cmake/HunterGate.cmake")
 HunterGate(
     URL "https://github.com/cpp-pm/hunter/archive/v0.24.18.tar.gz"
     SHA1 "1292e4d661e1770d6d6ca08c12c07cf34a0bf718"
-    #LOCAL # use local cmake config - cmake/Hunter/config.cmake
+    LOCAL # use local cmake config - cmake/Hunter/config.cmake
 )
 project(c1 VERSION 0.1.0 LANGUAGES C CXX)
 set(CMAKE_CXX_STANDARD 20)
