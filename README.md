@@ -4,7 +4,7 @@
 
 To build and run
 ```
-# Run the following command in the project root
+# Run the following commands in the project root
 
 # Generate Makefile. use -GNinja optionally
 cmake -B build
